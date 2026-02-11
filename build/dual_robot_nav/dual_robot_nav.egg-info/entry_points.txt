@@ -1,4 +1,0 @@
-[console_scripts]
-fms_smart_nav = dual_robot_nav.fms_smart_nav:main
-single_nav_goal = dual_robot_nav.single_nav_goal:main
-

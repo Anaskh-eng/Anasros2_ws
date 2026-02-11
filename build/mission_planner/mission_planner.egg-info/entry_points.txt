@@ -1,8 +1,0 @@
-[console_scripts]
-dual_robot_commander_fms2 = mission_planner.dual_robot_commander_fms2:main
-single_robot_nav = mission_planner.single_robot_nav:main
-single_robot_nav_fms2 = mission_planner.single_robot_nav_fms2:main
-single_robot_nav_fms3 = mission_planner.single_robot_nav_fms3:main
-single_robot_nav_fms4 = mission_planner.single_robot_nav_fms4:main
-trial = mission_planner.trial:main
-

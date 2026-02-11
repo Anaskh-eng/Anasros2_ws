@@ -1,1 +1,0 @@
-/home/anaskh007/Anasros2_ws/src/pub_sub_ex/launch/pub_sub.launch.py
