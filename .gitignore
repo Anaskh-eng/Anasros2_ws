@@ -1,5 +1,6 @@
 .vscode/browse.vc.db
 .vscode/browse.vc.db-shm
+.vscode/browse.vc.db-wal
 build/
 log/
 install/
