@@ -1,0 +1,7 @@
+[console_scripts]
+nav_goals = pub_sub_ex.my_nav_script:main
+nav_goals_fixed = pub_sub_ex.nav_goals_fixed:main
+nav_simple = pub_sub_ex.nav_simple:main
+pub = pub_sub_ex.pub_node:main
+sub = pub_sub_ex.sub_node:main
+

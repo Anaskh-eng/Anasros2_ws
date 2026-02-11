@@ -1,0 +1,59 @@
+robot1:
+  amcl:
+    ros__parameters:
+      use_sim_time: True
+      base_frame_id: "robot1/base_footprint"
+      global_frame_id: "robot1/map"
+      odom_frame_id: "robot1/odom"
+      scan_topic: /robot1/scan
+
+  controller_server:
+    ros__parameters:
+      use_sim_time: True
+      odom_topic: /robot1/odom
+
+  local_costmap:
+    local_costmap:
+      ros__parameters:
+        use_sim_time: True
+        global_frame: robot1/odom
+        robot_base_frame: robot1/base_link
+        scan:
+          topic: /robot1/scan
+
+  global_costmap:
+    global_costmap:
+      ros__parameters:
+        use_sim_time: True
+        global_frame: robot1/map
+        robot_base_frame: robot1/base_link
+        scan:
+          topic: /robot1/scan
+
+  bt_navigator:
+    ros__parameters:
+      use_sim_time: True
+      global_frame: robot1/map
+      robot_base_frame: robot1/base_link
+
+  planner_server:
+    ros__parameters:
+      use_sim_time: True
+
+  smoother_server:
+    ros__parameters:
+      use_sim_time: True
+
+  behavior_server:
+    ros__parameters:
+      use_sim_time: True
+      global_frame: robot1/odom
+      robot_base_frame: robot1/base_link
+
+  waypoint_follower:
+    ros__parameters:
+      use_sim_time: True
+
+  velocity_smoother:
+    ros__parameters:
+      use_sim_time: True

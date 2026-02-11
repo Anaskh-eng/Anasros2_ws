@@ -1,0 +1,27 @@
+[1.678s] Invoking command in '/home/anaskh007/Anasros2_ws/build/mission_planner': PYTHONPATH=/home/anaskh007/Anasros2_ws/build/mission_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anaskh007/Anasros2_ws/install/mission_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/anaskh007/Anasros2_ws/build/mission_planner/build --no-deps symlink_data
+[1.895s] running develop
+[2.031s] running egg_info
+[2.032s] creating mission_planner.egg-info
+[2.032s] writing mission_planner.egg-info/PKG-INFO
+[2.032s] writing dependency_links to mission_planner.egg-info/dependency_links.txt
+[2.032s] writing entry points to mission_planner.egg-info/entry_points.txt
+[2.032s] writing requirements to mission_planner.egg-info/requires.txt
+[2.032s] writing top-level names to mission_planner.egg-info/top_level.txt
+[2.032s] writing manifest file 'mission_planner.egg-info/SOURCES.txt'
+[2.035s] reading manifest file 'mission_planner.egg-info/SOURCES.txt'
+[2.035s] writing manifest file 'mission_planner.egg-info/SOURCES.txt'
+[2.037s] running build_ext
+[2.037s] Creating /home/anaskh007/Anasros2_ws/install/mission_planner/lib/python3.10/site-packages/mission-planner.egg-link (link to .)
+[2.038s] Installing dual_robot_commander_fms2 script to /home/anaskh007/Anasros2_ws/install/mission_planner/lib/mission_planner
+[2.038s] Installing single_robot_nav script to /home/anaskh007/Anasros2_ws/install/mission_planner/lib/mission_planner
+[2.038s] Installing single_robot_nav_fms2 script to /home/anaskh007/Anasros2_ws/install/mission_planner/lib/mission_planner
+[2.038s] Installing trial script to /home/anaskh007/Anasros2_ws/install/mission_planner/lib/mission_planner
+[2.038s] 
+[2.038s] Installed /home/anaskh007/Anasros2_ws/build/mission_planner
+[2.038s] running symlink_data
+[2.038s] creating /home/anaskh007/Anasros2_ws/install/mission_planner/share/ament_index
+[2.038s] creating /home/anaskh007/Anasros2_ws/install/mission_planner/share/ament_index/resource_index
+[2.038s] creating /home/anaskh007/Anasros2_ws/install/mission_planner/share/ament_index/resource_index/packages
+[2.038s] symbolically linking /home/anaskh007/Anasros2_ws/build/mission_planner/resource/mission_planner -> /home/anaskh007/Anasros2_ws/install/mission_planner/share/ament_index/resource_index/packages
+[2.038s] symbolically linking /home/anaskh007/Anasros2_ws/build/mission_planner/package.xml -> /home/anaskh007/Anasros2_ws/install/mission_planner/share/mission_planner
+[2.071s] Invoked command in '/home/anaskh007/Anasros2_ws/build/mission_planner' returned '0': PYTHONPATH=/home/anaskh007/Anasros2_ws/build/mission_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anaskh007/Anasros2_ws/install/mission_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/anaskh007/Anasros2_ws/build/mission_planner/build --no-deps symlink_data
