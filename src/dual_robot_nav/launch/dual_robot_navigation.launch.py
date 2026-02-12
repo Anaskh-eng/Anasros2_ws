@@ -172,8 +172,8 @@ def generate_launch_description():
     
     return LaunchDescription([
         # Launch Arguments
-        # DeclareLaunchArgument('use_sim_time', default_value='True', description='Use simulation (Gazebo) clock if true'),
-        # DeclareLaunchArgument('autostart', default_value='True', description='Automatically startup the nav2 stack'),
+        DeclareLaunchArgument('use_sim_time', default_value='True', description='Use simulation (Gazebo) clock if true'),
+        DeclareLaunchArgument('autostart', default_value='True', description='Automatically startup the nav2 stack'),
         
         # Gazebo
         gazebo,
